@@ -15,10 +15,7 @@ for (int i=0; i<array2d.GetLength(0); i++)
 {
     for(int j=0; j<array2d.GetLength(1); j++)
     {
-       array2d [i,j] = new Random(). Next (1,15);
-    //    if (array2d[i,j] == number) 
-        //    Console.WriteLine(i,j);
-       
+       array2d [i,j] = new Random(). Next (1,15);       
         Console.Write( array2d[i,j] + " ");
     }
     Console.WriteLine( );
